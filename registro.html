@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
+	<link href="assets/css/main1.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+      <div class="contenedor-formulario">
+            <header>
+                <h1>Crear cuenta </h1>
+                <p>Registrate y se parte de ConectArte</p>
+            </header>
+            <form method="POST" action="insertar.php">
+                <input class="campo-texto" id="Nombres" type="text" name="Nombres" placeholder="Nombres" maxlength="20" required="" />
+                <input class="campo-texto" id="Apellidos" type="text" name="Apellidos" placeholder="Apellidos" maxlength="20" required="" />
+                <input class="campo-texto" id="DNI" type="text" name="DNI" placeholder="DNI" maxlength="20" required="" />
+                <input class="campo-texto" id="Email" type="text" name="Email" placeholder="Email" maxlength="50" required="" />
+                <input class="campo-texto" id="password" type="password" name="password" placeholder="password" maxlength="15" required="" /> 
+               
+                <input type="reset" value="Limpiar" class="borrar" />
+                <input type="submit" value="Enviar" class="submit" />
+            </form>
+            <footer>
+                <span>¿Ya estas registrado?</span>
+                <a class="boton" href="index.html">Home</a>
+            </footer>
+        </div>
+    </div>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
